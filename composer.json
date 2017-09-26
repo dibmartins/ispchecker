@@ -1,0 +1,25 @@
+{
+    "name"          : "dibmartins/ispchecker",
+    "description"   : "Parser to get isp info from ip",
+    "type"          : "library",
+    "license"       : "GNU",
+    "authors": [{
+        "name"  : "Diego Botelho",
+        "email" : "dibmartins@gmail.com"
+    }],
+
+    "require": {
+        "curl/curl": "^1.8"
+    },
+
+    "autoload": {
+        
+        "psr-4": {
+            "IspChecker\\": "src/IspChecker"
+        },
+
+        "classmap" : [
+            "src/IspChecker"
+        ]
+    }
+}
